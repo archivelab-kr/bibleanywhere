@@ -73,12 +73,12 @@
     [
       "lock",
       "Private and offline",
-      "No account, no ads, no tracking. Every text is on your device and works without a connection."
+      "No account to create, no tracking. Every text is on your device and works without a connection; your marks sync only through your own iCloud."
     ]
   ],
   "devices_h2": "On iPhone and iPad too",
   "devices_p": "The same texts, search, cross references, highlights and notes. Tap verses to copy, share or mark them; on iPad the two translations sit side by side. Free on iPhone and iPad with a small banner below the text; Pro removes it.",
-  "devices_note": "Highlights, notes and bookmarks are kept on each device for now.",
+  "devices_note": "Highlights, notes and bookmarks sync between your Mac, iPhone and iPad through your own iCloud. You can turn it off in Settings.",
   "pricing_h2": "Free to read. Pay once for the tools.",
   "free_h3": "Free",
   "free_price": "Mac with no ads · iPhone and iPad with a small banner",
@@ -107,7 +107,7 @@
   ],
   "texts_note": "All four are in the public domain. Copyrighted translations such as NIV, ESV, NASB, 개역개정 and 새번역 need a publisher's license and are not included.",
   "promise_h2": "Your notes stay yours",
-  "promise_p": "There is no account and the app never sends your notes anywhere. The Mac app has no ads and no tracking. On iPhone and iPad a Google AdMob banner pays for the free version, without asking to track you; Pro removes it.",
+  "promise_p": "There is no account of ours. Your highlights, notes and bookmarks stay on your devices and, if you keep iCloud sync on, in your own private iCloud, which only your Apple Account can read; the developer never sees them. The Mac app has no ads and no tracking. On iPhone and iPad a Google AdMob banner pays for the free version, without asking to track you; Pro removes it.",
   "promise_link": "Read the privacy policy",
   "privacy": {
     "title": "Privacy Policy",
@@ -125,13 +125,13 @@
       [
         "What stays on your device",
         [
-          "Your settings, reading position, shelf, highlights, notes and bookmarks are stored in the app's own folder on your device. They never leave it unless you copy, share, drag or export them yourself. Deleting the app deletes them."
+          "Your settings, reading position and shelf are stored in the app's own folder on your device. Highlights, notes and bookmarks are stored there too and, while iCloud sync is on (Settings ▸ iCloud), also in your private iCloud database (Apple CloudKit), so your other devices signed in to the same Apple Account get them. That database belongs to your Apple Account: the developer cannot read it. Turn sync off and everything stays on the device only. Deleting the app deletes the copy on that device; the iCloud copy can be removed in your device's iCloud settings."
         ]
       ],
       [
         "Network",
         [
-          "The Bible texts and cross references are inside the app, so reading, searching and read aloud work offline. The Mac app makes no network requests of its own; on iPhone and iPad the only network use is the ad banner."
+          "The Bible texts and cross references are inside the app, so reading, searching and read aloud work offline. The only network use is iCloud sync of your own marks (when it is on) and, on iPhone and iPad, the ad banner."
         ]
       ],
       [
@@ -178,7 +178,7 @@
       ],
       [
         "Do my highlights and notes sync between devices?",
-        "Not yet. They are kept on each device. Syncing through iCloud is planned."
+        "Yes, through your own iCloud: sign in with the same Apple Account on your Mac, iPhone and iPad and keep Settings ▸ iCloud sync on. If the same verse is changed on two devices before they sync, the later change wins; two different notes are both kept."
       ],
       [
         "Why is NIV, ESV or 개역개정 not included?",
