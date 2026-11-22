@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Verse Anywhere</title>
+<meta name="description" content="Press ⌃⌥B in any Mac app, type a reference and press Return: the verses are copied with their references. Two translations side by side, cross references, highlights and notes, read aloud. Offline, no account. Free to read, one-time Pro.">
+<link rel="alternate" hreflang="en" href="https://archivelab-kr.github.io/verseanywhere/en/">
+<link rel="alternate" hreflang="ko" href="https://archivelab-kr.github.io/verseanywhere/ko/">
+<link rel="alternate" hreflang="x-default" href="https://archivelab-kr.github.io/verseanywhere/">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<script>
+(function () {
+  var langs = (navigator.languages || [navigator.language || "en"]);
+  for (var i = 0; i < langs.length; i++) { if (langs[i].toLowerCase().indexOf("ko") === 0) { location.replace("ko/"); return; } }
+  location.replace("en/");
+})();
+</script>
+<noscript><meta http-equiv="refresh" content="0; url=en/"></noscript>
+</head>
+<body>
+<ul><li><a href="en/" lang="en">English</a></li><li><a href="ko/" lang="ko">한국어</a></li></ul>
+</body>
+</html>

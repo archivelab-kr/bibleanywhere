@@ -1,0 +1,191 @@
+{
+  "lang_name": "English",
+  "language": "Language",
+  "title": "Verse Anywhere: find, compare and quote the Bible on Mac, iPhone and iPad",
+  "description": "Press ⌃⌥B in any Mac app, type a reference and press Return: the verses are copied with their references. Two translations side by side, cross references, highlights and notes, read aloud. Offline, no account. Free to read, one-time Pro.",
+  "nav_home": "Home",
+  "nav_features": "Features",
+  "nav_pricing": "Pricing",
+  "nav_support": "Support",
+  "nav_privacy": "Privacy",
+  "hero_kicker": "For Mac, iPhone and iPad",
+  "hero_h1": "Bible verses,\nwherever you write.",
+  "hero_p": "Press ⌃⌥B in Pages, Word, Obsidian or an email, type “John 3:16; Rom 8:28” and press Return. The verses are copied with their references, ready to paste.",
+  "hero_note": "Reading, search, two translations, highlights, notes and read aloud are free. Copying from Quick Find on the Mac is part of Pro.",
+  "cta_download": "Download on the App Store",
+  "cta_soon": "Coming soon to the App Store",
+  "requirements": "macOS 14 or later · iOS and iPadOS 17 or later · Korean and English",
+  "how_h2": "Three ways it saves you time",
+  "steps": [
+    [
+      "Quick Find, from any app",
+      "Type one reference or several (“Ps 23; 1 Cor 13:4-7”), or a few words. Return copies them in the style you chose.",
+      "quickfind"
+    ],
+    [
+      "A calm reader, two translations",
+      "Read two translations side by side, open cross references next to the text, and come back to the verse you left.",
+      "reader"
+    ],
+    [
+      "Collect while you prepare",
+      "Gather verses for a sermon, lesson or study on the shelf, drag a card into your document, or copy them all at once.",
+      "shelf"
+    ]
+  ],
+  "features_h2": "Made for people who write with Scripture",
+  "features": [
+    [
+      "copy",
+      "Copy the way you write",
+      "Reference after or before the text, a Markdown quote, an Obsidian callout, the reference in parentheses, or one verse per line for slides."
+    ],
+    [
+      "mark",
+      "Highlights, notes, bookmarks",
+      "Five highlight colours, a note on any verse, bookmarks for the places you return to. Notes belong to the verse, so they show in every translation."
+    ],
+    [
+      "listen",
+      "Read aloud",
+      "The chapter read with the voices built into your device, offline, with the verse being read marked and followed. It goes on into the next chapter."
+    ],
+    [
+      "link",
+      "Notes and manuscripts",
+      "Copy Link reopens the passage from Notes, Pages or Obsidian. Select a sermon outline and the Services menu puts each line's verses right under it."
+    ],
+    [
+      "refs",
+      "Cross references",
+      "118,000 links from OpenBible.info. Select a verse to see related passages, preview them and jump with one tap."
+    ],
+    [
+      "theme",
+      "Sepia, Dark and Myeongjo",
+      "Reading themes for long sessions and a Myeongjo or old-style serif face, with every text size you need."
+    ],
+    [
+      "keys",
+      "Keyboard first on the Mac",
+      "⌘F to search, ↑↓ to move between verses, ←→ to change chapters, ⌘L to go to a reference. Every command is in the menu."
+    ],
+    [
+      "lock",
+      "Private and offline",
+      "No account, no ads, no tracking. Every text is on your device and works without a connection."
+    ]
+  ],
+  "devices_h2": "On iPhone and iPad too",
+  "devices_p": "The same texts, search, cross references, highlights and notes. Tap verses to copy, share or mark them; on iPad the two translations sit side by side. Free on iPhone and iPad.",
+  "devices_note": "Highlights, notes and bookmarks are kept on each device for now.",
+  "pricing_h2": "Free to read. Pay once for the tools.",
+  "free_h3": "Free",
+  "free_price": "Mac, iPhone and iPad",
+  "free_items": [
+    "Reading and full-text search",
+    "Two translations side by side",
+    "Cross references",
+    "Highlights, notes and bookmarks",
+    "Read aloud, themes, copying from the reader, verse links"
+  ],
+  "pro_h3": "Verse Anywhere Pro",
+  "pro_price": "US$4.99 once · no subscription · Family Sharing",
+  "pro_items": [
+    "Copying from Quick Find in any Mac app",
+    "Services menu: insert verses where you write",
+    "Export the shelf as Markdown"
+  ],
+  "pricing_note": "No paywall at launch. The Pro window always has Close and Restore Purchases.",
+  "texts_h2": "Included texts",
+  "texts": [
+    "개역한글 (Korean Revised Version, 1961)",
+    "Berean Standard Bible (BSB)",
+    "World English Bible (WEB)",
+    "King James Version (KJV)"
+  ],
+  "texts_note": "All four are in the public domain. Copyrighted translations such as NIV, ESV, NASB, 개역개정 and 새번역 need a publisher's license and are not included.",
+  "promise_h2": "Your device, your notes",
+  "promise_p": "Verse Anywhere collects nothing. There is no account, no analytics and no advertising, and the app does not connect to our servers. Purchases go through Apple.",
+  "promise_link": "Read the privacy policy",
+  "privacy": {
+    "title": "Privacy Policy",
+    "updated": "Last updated: November 22, 2026",
+    "intro": "Verse Anywhere is a Bible app for Mac, iPhone and iPad. It is built to work without collecting any personal information.",
+    "sections": [
+      [
+        "What we collect",
+        [
+          "Nothing. Verse Anywhere has no account, no analytics, no crash reporting service and no advertising. The developer receives no data from the app."
+        ]
+      ],
+      [
+        "What stays on your device",
+        [
+          "Your settings, reading position, shelf, highlights, notes and bookmarks are stored in the app's own folder on your device. They never leave it unless you copy, share, drag or export them yourself. Deleting the app deletes them."
+        ]
+      ],
+      [
+        "Network",
+        [
+          "The Bible texts and cross references are inside the app, so reading, searching and read aloud work offline. The app makes no network requests of its own."
+        ]
+      ],
+      [
+        "Purchases",
+        [
+          "Verse Anywhere Pro is bought through the App Store. Apple processes the payment and tells the app only whether Pro is unlocked. See Apple's privacy policy for how Apple handles purchase data."
+        ]
+      ],
+      [
+        "Children",
+        [
+          "The app collects no data from anyone, including children."
+        ]
+      ],
+      [
+        "Changes and contact",
+        [
+          "If this policy changes, the new version will be posted on this page with a new date. Questions: {email}"
+        ]
+      ]
+    ],
+    "note": "This policy applies to the Verse Anywhere apps and this website. The website uses no cookies, analytics or third-party resources."
+  },
+  "support": {
+    "title": "Support",
+    "intro": "Questions, bug reports and ideas are welcome: {email}. Please include your device, its system version and what you were doing.",
+    "faq_h2": "Frequently asked questions",
+    "faq": [
+      [
+        "The Quick Find shortcut does nothing on my Mac.",
+        "Another shortcut may already use it. If macOS uses it (for example ⌃⌥Space switches input sources), Settings shows a warning; choose a different shortcut in Verse Anywhere ▸ Settings ▸ General. Another app's shortcut cannot be detected, so try a different one if Quick Find still does not open."
+      ],
+      [
+        "How do I restore Pro on a new Mac?",
+        "Open Settings ▸ General and click Restore Purchases, signed in with the same Apple Account. With Family Sharing, family members get Pro too."
+      ],
+      [
+        "Which features are free?",
+        "Everything on iPhone and iPad, and on the Mac: reading, search, two translations, cross references, highlights, notes, bookmarks, read aloud, themes, copying from the reader and verse links. Pro adds Quick Find copying, the Services menu and Markdown export on the Mac."
+      ],
+      [
+        "Do my highlights and notes sync between devices?",
+        "Not yet. They are kept on each device. Syncing through iCloud is planned."
+      ],
+      [
+        "Why is NIV, ESV or 개역개정 not included?",
+        "Those translations are copyrighted and need a license from their publishers. Verse Anywhere includes only public-domain texts."
+      ],
+      [
+        "How do I type references?",
+        "English or Korean book names and common abbreviations all work: “John 3:16”, “Rom 8:28-39”, “Ps 23”, “요 3:16”, “고전 13:4~7”. Separate several with semicolons."
+      ],
+      [
+        "Does it need the internet?",
+        "No. All texts, cross references and the read-aloud voices are on your device."
+      ]
+    ]
+  },
+  "foot_copy": "© 2026 ArchiveLab · Bible texts in the public domain · Cross references: OpenBible.info (CC BY)"
+}
