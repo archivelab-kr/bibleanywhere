@@ -43,6 +43,7 @@ def icon(name, cls="ico"):
 def esc(s):
     out = html.escape(s, quote=False)
     out = out.replace("https://policies.google.com/privacy", '<a href="https://policies.google.com/privacy">policies.google.com/privacy</a>')
+    out = out.replace("https://firebase.google.com/support/privacy", '<a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a>')
     return out.replace("{email}", f'<a href="mailto:{SUPPORT_EMAIL}">{SUPPORT_EMAIL}</a>')
 
 

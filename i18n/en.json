@@ -111,15 +111,15 @@
   "promise_link": "Read the privacy policy",
   "privacy": {
     "title": "Privacy Policy",
-    "updated": "Last updated: November 22, 2026",
-    "intro": "Bible Anywhere is a Bible app for Mac, iPhone and iPad. It is built to work without collecting any personal information.",
+    "updated": "Last updated: November 23, 2026",
+    "intro": "Bible Anywhere is a Bible app for Mac, iPhone and iPad. It collects as little as it can: no account, and nothing that identifies you.",
     "sections": [
       [
         "What we collect",
         [
-          "Bible Anywhere has no account, no analytics and no crash reporting service, and the developer receives no data from the app.",
+          "Bible Anywhere has no account. To fix crashes and see which features are used, the apps on Mac, iPhone and iPad send two kinds of data to Google Firebase, which processes it for the developer: crash reports (Firebase Crashlytics: where the app crashed, device model, system and app version, and an installation ID) and usage statistics (Google Analytics for Firebase: screens and features used, app version, device type, country or approximate region from the IP address, and an app instance ID). This data does not include your name, email, Bible marks or anything you type, is not linked to who you are, and is not used for advertising or to track you across apps; the advertising identifier is not used. See https://firebase.google.com/support/privacy.",
           "On iPhone and iPad only, the free version shows banner ads from Google AdMob. Google's ad SDK collects device and advertising data, an approximate location from the IP address, and diagnostics to show and measure ads. The app does not ask to track you, so your advertising identifier is not used. Where the law requires it (for example in the EEA and UK), you are asked for consent first and can change it later in Settings ▸ Ad Privacy Settings. Buying Pro removes the ads. See Google's privacy policy: https://policies.google.com/privacy",
-          "The Mac app shows no ads and collects nothing."
+          "The Mac app shows no ads; it sends only the crash reports and usage statistics described above."
         ]
       ],
       [
@@ -131,7 +131,7 @@
       [
         "Network",
         [
-          "The Bible texts and cross references are inside the app, so reading, searching and read aloud work offline. The only network use is iCloud sync of your own marks (when it is on) and, on iPhone and iPad, the ad banner."
+          "The Bible texts and cross references are inside the app, so reading, searching and read aloud work offline. The network is used for iCloud sync of your own marks (when it is on), crash reports and usage statistics, and, on iPhone and iPad, the ad banner."
         ]
       ],
       [
@@ -143,7 +143,7 @@
       [
         "Children",
         [
-          "The app collects no data from anyone, including children."
+          "The app does not ask anyone, including children, for personal information; crash reports and usage statistics are not linked to who you are."
         ]
       ],
       [
