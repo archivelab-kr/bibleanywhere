@@ -90,7 +90,7 @@
     "Read aloud, themes, copying from the reader, verse links"
   ],
   "pro_h3": "Bible Anywhere Pro",
-  "pro_price": "US$4.99 once · no subscription · Family Sharing",
+  "pro_price": "US$4.99 once · no subscription",
   "pro_items": [
     "Mac: copying from Quick Find in any app",
     "Mac: Services menu to insert verses where you write, Markdown export",
@@ -166,7 +166,7 @@
       ],
       [
         "How do I restore Pro on a new Mac?",
-        "Open Settings ▸ General and click Restore Purchases, signed in with the same Apple Account. With Family Sharing, family members get Pro too."
+        "Open Settings ▸ General and click Restore Purchases, signed in with the same Apple Account."
       ],
       [
         "Which features are free?",
