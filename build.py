@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Builds the Verse Anywhere website.
+"""Builds the Bible Anywhere website.
 
 i18n/<lang>.json  ->  <lang>/index.html, <lang>/privacy.html, <lang>/support.html, index.html, sitemap.xml
 
@@ -14,7 +14,7 @@ import sys
 ROOT = pathlib.Path(__file__).parent
 
 # Set these before publishing.
-SITE_URL = "https://archivelab-kr.github.io/verseanywhere"  # same GitHub Pages account as PawShelf
+SITE_URL = "https://archivelab-kr.github.io/bibleanywhere"  # same GitHub Pages account as PawShelf
 SUPPORT_EMAIL = "archivelabapps@gmail.com"                   # the support address PawShelf's site uses
 APP_STORE_URL = ""                                           # empty shows "Coming soon"
 
@@ -77,7 +77,7 @@ def head(code, slug, page, title, desc, extra=""):
 {alts}
 <link rel="alternate" hreflang="x-default" href="{SITE_URL}/">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="Verse Anywhere">
+<meta property="og:site_name" content="Bible Anywhere">
 <meta property="og:title" content="{attr(title)}">
 <meta property="og:description" content="{attr(desc)}">
 <meta property="og:url" content="{url(slug, page)}">
@@ -91,7 +91,7 @@ def head(code, slug, page, title, desc, extra=""):
 
 
 def jsonld(t, code, slug):
-    data = {"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Verse Anywhere",
+    data = {"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Bible Anywhere",
             "description": t["description"], "operatingSystem": "macOS 14, iOS 17, iPadOS 17",
             "applicationCategory": "ReferenceApplication", "inLanguage": code, "url": url(slug, "index.html"),
             "image": f"{SITE_URL}/assets/icon-1024.png", "screenshot": f"{SITE_URL}/{shot(slug, 'reader')[3:]}",
@@ -109,7 +109,7 @@ def header(t, page):
     return f"""
 <header class="top">
   <div class="top-in">
-    <a class="brand" href="./"><img src="../assets/icon-256.png" alt="" width="32" height="32">Verse Anywhere</a>
+    <a class="brand" href="./"><img src="../assets/icon-256.png" alt="" width="32" height="32">Bible Anywhere</a>
     <nav class="top-nav" aria-label="{attr(t["nav_home"])}">
       <a href="{home}#features">{esc(t["nav_features"])}</a>
       <a href="{home}#pricing">{esc(t["nav_pricing"])}</a>
@@ -125,7 +125,7 @@ def footer(t, page):
     return f"""
 <footer class="foot">
   <div class="foot-in">
-    <p class="foot-brand"><img src="../assets/icon-256.png" alt="" width="24" height="24">Verse Anywhere</p>
+    <p class="foot-brand"><img src="../assets/icon-256.png" alt="" width="24" height="24">Bible Anywhere</p>
     <ul class="foot-links">
       <li><a href="./">{esc(t["nav_home"])}</a></li>
       <li><a href="support.html">{esc(t["nav_support"])}</a></li>
@@ -256,7 +256,7 @@ def root_index():
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Verse Anywhere</title>
+<title>Bible Anywhere</title>
 <meta name="description" content="{attr(all_t["en"]["description"])}">
 {alts}
 <link rel="alternate" hreflang="x-default" href="{SITE_URL}/">
@@ -304,8 +304,8 @@ for code, slug in LANGS:
     out.mkdir(exist_ok=True)
     pages = {
         "index.html": (t["title"], t["description"], header(t, "index.html") + home(t)),
-        "privacy.html": (f'{t["privacy"]["title"]} | Verse Anywhere', t["privacy"]["intro"], header(t, "privacy.html") + privacy(t)),
-        "support.html": (f'{t["support"]["title"]} | Verse Anywhere', t["support"]["intro"].replace("{email}", SUPPORT_EMAIL),
+        "privacy.html": (f'{t["privacy"]["title"]} | Bible Anywhere', t["privacy"]["intro"], header(t, "privacy.html") + privacy(t)),
+        "support.html": (f'{t["support"]["title"]} | Bible Anywhere', t["support"]["intro"].replace("{email}", SUPPORT_EMAIL),
                          header(t, "support.html") + support(t)),
     }
     for page, (title, desc, body) in pages.items():

@@ -1,7 +1,7 @@
 {
   "lang_name": "English",
   "language": "Language",
-  "title": "Verse Anywhere: find, compare and quote the Bible on Mac, iPhone and iPad",
+  "title": "Bible Anywhere: find, compare and quote the Bible on Mac, iPhone and iPad",
   "description": "Press ⌃⌥B in any Mac app, type a reference and press Return: the verses are copied with their references. Two translations side by side, cross references, highlights and notes, read aloud. Offline, no account. Free to read, one-time Pro.",
   "nav_home": "Home",
   "nav_features": "Features",
@@ -89,7 +89,7 @@
     "Highlights, notes and bookmarks",
     "Read aloud, themes, copying from the reader, verse links"
   ],
-  "pro_h3": "Verse Anywhere Pro",
+  "pro_h3": "Bible Anywhere Pro",
   "pro_price": "US$4.99 once · no subscription · Family Sharing",
   "pro_items": [
     "Mac: copying from Quick Find in any app",
@@ -112,12 +112,12 @@
   "privacy": {
     "title": "Privacy Policy",
     "updated": "Last updated: November 22, 2026",
-    "intro": "Verse Anywhere is a Bible app for Mac, iPhone and iPad. It is built to work without collecting any personal information.",
+    "intro": "Bible Anywhere is a Bible app for Mac, iPhone and iPad. It is built to work without collecting any personal information.",
     "sections": [
       [
         "What we collect",
         [
-          "Verse Anywhere has no account, no analytics and no crash reporting service, and the developer receives no data from the app.",
+          "Bible Anywhere has no account, no analytics and no crash reporting service, and the developer receives no data from the app.",
           "On iPhone and iPad only, the free version shows banner ads from Google AdMob. Google's ad SDK collects device and advertising data, an approximate location from the IP address, and diagnostics to show and measure ads. The app does not ask to track you, so your advertising identifier is not used. Where the law requires it (for example in the EEA and UK), you are asked for consent first and can change it later in Settings ▸ Ad Privacy Settings. Buying Pro removes the ads. See Google's privacy policy: https://policies.google.com/privacy",
           "The Mac app shows no ads and collects nothing."
         ]
@@ -137,7 +137,7 @@
       [
         "Purchases",
         [
-          "Verse Anywhere Pro is bought through the App Store. Apple processes the payment and tells the app only whether Pro is unlocked. See Apple's privacy policy for how Apple handles purchase data."
+          "Bible Anywhere Pro is bought through the App Store. Apple processes the payment and tells the app only whether Pro is unlocked. See Apple's privacy policy for how Apple handles purchase data."
         ]
       ],
       [
@@ -153,7 +153,7 @@
         ]
       ]
     ],
-    "note": "This policy applies to the Verse Anywhere apps and this website. The website uses no cookies, analytics or third-party resources."
+    "note": "This policy applies to the Bible Anywhere apps and this website. The website uses no cookies, analytics or third-party resources."
   },
   "support": {
     "title": "Support",
@@ -162,7 +162,7 @@
     "faq": [
       [
         "The Quick Find shortcut does nothing on my Mac.",
-        "Another shortcut may already use it. If macOS uses it (for example ⌃⌥Space switches input sources), Settings shows a warning; choose a different shortcut in Verse Anywhere ▸ Settings ▸ General. Another app's shortcut cannot be detected, so try a different one if Quick Find still does not open."
+        "Another shortcut may already use it. If macOS uses it (for example ⌃⌥Space switches input sources), Settings shows a warning; choose a different shortcut in Bible Anywhere ▸ Settings ▸ General. Another app's shortcut cannot be detected, so try a different one if Quick Find still does not open."
       ],
       [
         "How do I restore Pro on a new Mac?",
@@ -182,7 +182,7 @@
       ],
       [
         "Why is NIV, ESV or 개역개정 not included?",
-        "Those translations are copyrighted and need a license from their publishers. Verse Anywhere includes only public-domain texts."
+        "Those translations are copyrighted and need a license from their publishers. Bible Anywhere includes only public-domain texts."
       ],
       [
         "How do I type references?",
