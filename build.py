@@ -17,7 +17,7 @@ ROOT = pathlib.Path(__file__).parent
 # Set these before publishing.
 SITE_URL = "https://archivelab-kr.github.io/bibleanywhere"  # same GitHub Pages account as PawShelf
 SUPPORT_EMAIL = "archivelabapps@gmail.com"                   # the support address PawShelf's site uses
-APP_STORE_URL = ""                                           # empty shows "Coming soon"
+APP_STORE_URL = "https://apps.apple.com/app/apple-store/id6837986555?pt=120201957&ct=website"  # empty shows "Coming soon"; pt/ct: App Store Connect campaign (same team token as PawShelf)
 
 LANGS = [("en", "en"), ("ko", "ko")]  # (code for <html lang>/hreflang, folder)
 PAGES = ["index.html", "privacy.html", "support.html"]
