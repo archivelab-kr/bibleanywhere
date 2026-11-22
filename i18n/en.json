@@ -11,7 +11,7 @@
   "hero_kicker": "For Mac, iPhone and iPad",
   "hero_h1": "Bible verses,\nwherever you write.",
   "hero_p": "Press ⌃⌥B in Pages, Word, Obsidian or an email, type “John 3:16; Rom 8:28” and press Return. The verses are copied with their references, ready to paste.",
-  "hero_note": "Reading, search, two translations, highlights, notes and read aloud are free. Copying from Quick Find on the Mac is part of Pro.",
+  "hero_note": "Reading, search, two translations, highlights, notes and read aloud are free. On the Mac, copying from Quick Find is part of Pro; on iPhone and iPad, Pro removes the ads.",
   "cta_download": "Download on the App Store",
   "cta_soon": "Coming soon to the App Store",
   "requirements": "macOS 14 or later · iOS and iPadOS 17 or later · Korean and English",
@@ -77,11 +77,11 @@
     ]
   ],
   "devices_h2": "On iPhone and iPad too",
-  "devices_p": "The same texts, search, cross references, highlights and notes. Tap verses to copy, share or mark them; on iPad the two translations sit side by side. Free on iPhone and iPad.",
+  "devices_p": "The same texts, search, cross references, highlights and notes. Tap verses to copy, share or mark them; on iPad the two translations sit side by side. Free on iPhone and iPad with a small banner below the text; Pro removes it.",
   "devices_note": "Highlights, notes and bookmarks are kept on each device for now.",
   "pricing_h2": "Free to read. Pay once for the tools.",
   "free_h3": "Free",
-  "free_price": "Mac, iPhone and iPad",
+  "free_price": "Mac with no ads · iPhone and iPad with a small banner",
   "free_items": [
     "Reading and full-text search",
     "Two translations side by side",
@@ -92,9 +92,10 @@
   "pro_h3": "Verse Anywhere Pro",
   "pro_price": "US$4.99 once · no subscription · Family Sharing",
   "pro_items": [
-    "Copying from Quick Find in any Mac app",
-    "Services menu: insert verses where you write",
-    "Export the shelf as Markdown"
+    "Mac: copying from Quick Find in any app",
+    "Mac: Services menu to insert verses where you write, Markdown export",
+    "iPhone and iPad: no ads",
+    "One purchase works on Mac, iPhone and iPad"
   ],
   "pricing_note": "No paywall at launch. The Pro window always has Close and Restore Purchases.",
   "texts_h2": "Included texts",
@@ -105,8 +106,8 @@
     "King James Version (KJV)"
   ],
   "texts_note": "All four are in the public domain. Copyrighted translations such as NIV, ESV, NASB, 개역개정 and 새번역 need a publisher's license and are not included.",
-  "promise_h2": "Your device, your notes",
-  "promise_p": "Verse Anywhere collects nothing. There is no account, no analytics and no advertising, and the app does not connect to our servers. Purchases go through Apple.",
+  "promise_h2": "Your notes stay yours",
+  "promise_p": "There is no account and the app never sends your notes anywhere. The Mac app has no ads and no tracking. On iPhone and iPad a Google AdMob banner pays for the free version, without asking to track you; Pro removes it.",
   "promise_link": "Read the privacy policy",
   "privacy": {
     "title": "Privacy Policy",
@@ -116,7 +117,9 @@
       [
         "What we collect",
         [
-          "Nothing. Verse Anywhere has no account, no analytics, no crash reporting service and no advertising. The developer receives no data from the app."
+          "Verse Anywhere has no account, no analytics and no crash reporting service, and the developer receives no data from the app.",
+          "On iPhone and iPad only, the free version shows banner ads from Google AdMob. Google's ad SDK collects device and advertising data, an approximate location from the IP address, and diagnostics to show and measure ads. The app does not ask to track you, so your advertising identifier is not used. Where the law requires it (for example in the EEA and UK), you are asked for consent first and can change it later in Settings ▸ Ad Privacy Settings. Buying Pro removes the ads. See Google's privacy policy: https://policies.google.com/privacy",
+          "The Mac app shows no ads and collects nothing."
         ]
       ],
       [
@@ -128,7 +131,7 @@
       [
         "Network",
         [
-          "The Bible texts and cross references are inside the app, so reading, searching and read aloud work offline. The app makes no network requests of its own."
+          "The Bible texts and cross references are inside the app, so reading, searching and read aloud work offline. The Mac app makes no network requests of its own; on iPhone and iPad the only network use is the ad banner."
         ]
       ],
       [
@@ -167,7 +170,11 @@
       ],
       [
         "Which features are free?",
-        "Everything on iPhone and iPad, and on the Mac: reading, search, two translations, cross references, highlights, notes, bookmarks, read aloud, themes, copying from the reader and verse links. Pro adds Quick Find copying, the Services menu and Markdown export on the Mac."
+        "On the Mac: reading, search, two translations, cross references, highlights, notes, bookmarks, read aloud, themes, copying from the reader and verse links. Pro adds Quick Find copying, the Services menu and Markdown export. On iPhone and iPad every feature is free with ads, and Pro removes the ads."
+      ],
+      [
+        "Is the iPhone and iPad version really free?",
+        "Yes. Every feature is free with a small banner below the text. Pro (one purchase) removes the ads; if you bought Pro on the Mac, tap Restore Purchase in Settings."
       ],
       [
         "Do my highlights and notes sync between devices?",
