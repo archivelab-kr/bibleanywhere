@@ -6,6 +6,7 @@ i18n/<lang>.json  ->  <lang>/index.html, <lang>/privacy.html, <lang>/support.htm
 Run:  python3 build.py   (then `python3 -m http.server` to look at it)
 The folder is the website: it can be served as is (GitHub Pages, like PawShelf). No external requests.
 """
+import hashlib
 import html
 import json
 import pathlib
@@ -60,7 +61,8 @@ def shot(slug, name):
     for s in (slug, "ko", "en"):
         p = f"assets/shots/{name}-{s}.jpg"
         if (ROOT / p).exists():
-            return "../" + p
+            # The file's hash in the URL: a changed screenshot gets a new address, so browsers do not show a cached one.
+            return "../" + p + "?v=" + hashlib.md5((ROOT / p).read_bytes()).hexdigest()[:8]
     sys.exit(f"missing screenshot {name}")
 
 
